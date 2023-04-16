@@ -1,7 +1,7 @@
 ---
-displayName: Node.js Angular Web Application
+displayName: Che Demo App UI
 description: Stack for developing Node.js Angular Web Application
-tags: ["Community", "Node.js", "Angular", "Alpine"]
+tags: ["Community", "Node.js", "Angular"]
 icon: /images/angular.svg
 links:
-  v2: https://github.com/che-samples/nodejs-angular/tree/main
+  v2: https://github.com/etsauer/che-demo-app-ui/tree/main

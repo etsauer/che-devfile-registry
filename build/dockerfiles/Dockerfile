@@ -26,7 +26,7 @@ RUN chmod -R g+rwX /build/devfiles
 RUN chmod -R g+rwX /build/resources
 
 FROM docker.io/httpd:2.4.43-alpine AS registry
-RUN apk add --no-cache bash && \
+RUN apk update && apk upgrade && apk add --no-cache bash && \
     # Allow htaccess
     sed -i 's|    AllowOverride None|    AllowOverride All|' /usr/local/apache2/conf/httpd.conf && \
     sed -i 's|Listen 80|Listen 8080|' /usr/local/apache2/conf/httpd.conf && \
