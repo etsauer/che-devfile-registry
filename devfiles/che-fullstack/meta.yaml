@@ -1,0 +1,7 @@
+---
+displayName: Che Fullstack Application
+description: Stack for developing Node.js Angular Web Application
+tags: ["Community", "Node.js", "Angular", "Java", "Quarkus"]
+icon: /images/quarkus.svg
+links:
+  v2: https://github.com/etsauer/che-demo-app/tree/main
